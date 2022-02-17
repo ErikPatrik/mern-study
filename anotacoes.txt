@@ -1,0 +1,9 @@
+Pasta client: axios, moment (time/date), react-file-base64 (converter imagens), redux,
+redux-thunk (ações assincronas usando redux), @material-ui/core
+
+Pasta backend: body-parser, express, nodemon, cors, mongoose
+
+Foi utilizado o MongoDB Atlas
+
+mern_application
+mernapplication123
