@@ -1,6 +1,6 @@
-import moongose from 'mongoose'
+import mongoose from 'mongoose'
 
-const postSchema = moongose.Schema({
+const postSchema = mongoose.Schema({
     title: String,
     message: String,
     creator: String,
@@ -16,6 +16,6 @@ const postSchema = moongose.Schema({
     }
 })
 
-const PostMessage = moongose.model('PostMessage', postSchema)
+const PostMessage = mongoose.model('PostMessage', postSchema)
 
 export default PostMessage
